@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Plugin Switch Resize Class</title>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<script>    
+    $(document).ready(function () {
+        $('.tmpl_hh-wrapper').resizeClassSwitch();
+    });
+</script>
+
+<style>
+    .tmpl_hh-wrapper {
+        width: 100%;
+        max-width: 1250px;
+        min-width: 630px;
+        margin: 0px auto;
+        position: relative;
+    }
+</style>
+
+<body>
+    <div class="tmpl_hh-wrapper">
+        Content
+    </div>
+</body>
+
+</html>
